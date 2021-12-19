@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* font-family: 'Indie Flower', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+/* font-family: 'Baloo Bhaijaan 2', cursive; */
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display: flex;
+  justify-content: start;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.subtitle{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.menu,a,.Title{
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  color: white; 
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  
+}
+
+
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
